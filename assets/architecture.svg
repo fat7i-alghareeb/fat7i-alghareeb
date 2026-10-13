@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="460" viewBox="0 0 1280 460" role="img" aria-labelledby="t d">
+  <title id="t">Both sides of the wire</title>
+  <desc id="d">How I build: a Flutter client with presentation, domain and data layers talks to an ASP.NET Core API over REST, SignalR and JWT with refresh rotation. The API has Api, Application, Infrastructure and Domain layers on PostgreSQL, with Serilog and OpenTelemetry observability.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1611"/>
+      <stop offset="1" stop-color="#110e0b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3c469"/>
+      <stop offset="1" stop-color="#c98d24"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,monospace}
+      .h{font-size:13px;letter-spacing:3px;fill:#e8b04b}
+      .lt{font-size:17px;font-weight:600;fill:#fdfaf4}
+      .ls{font-size:13px;fill:#a99e8e}
+      .wl{font-size:12px}
+      .p1{animation:go 2.4s linear infinite}
+      .p2{animation:back 2.4s linear .8s infinite}
+      .p3{animation:go 2.4s linear 1.6s infinite}
+      .p4{animation:back 3s linear infinite}
+      .p5{animation:go 3s linear 1.2s infinite}
+      @keyframes go{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(352px);opacity:0}}
+      @keyframes back{0%{transform:translateX(352px);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(0);opacity:0}}
+      .flow{stroke-dasharray:4 8;animation:flow 1.4s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-24}}
+      .pulse{animation:pulse 2.2s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.55}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <rect width="1280" height="460" rx="26" fill="#0e0c0a"/>
+  <rect width="1280" height="460" rx="26" fill="url(#grid)"/>
+  <rect x="0.5" y="0.5" width="1279" height="459" rx="25.5" fill="none" stroke="#e8b04b" stroke-opacity="0.2"/>
+
+  <g class="sans">
+    <!-- LEFT: Flutter client -->
+    <rect x="24" y="24" width="408" height="412" rx="20" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="48" y="60" class="mono h">FLUTTER CLIENT</text>
+    <text x="408" y="60" text-anchor="end" class="mono" font-size="12" fill="#756c5f">Clean Architecture</text>
+
+    <g>
+      <rect x="44" y="80" width="368" height="80" rx="14" fill="#211b14" stroke="#e8b04b" stroke-opacity="0.45"/>
+      <rect x="44" y="80" width="5" height="80" rx="2.5" fill="url(#gold)"/>
+      <text x="66" y="112" class="lt">Presentation</text>
+      <text x="66" y="138" class="ls">BLoC / Cubit · freezed sealed states · GoRouter</text>
+    </g>
+    <g>
+      <rect x="44" y="172" width="368" height="80" rx="14" fill="#1c1712" stroke="#e8b04b" stroke-opacity="0.3"/>
+      <rect x="44" y="172" width="5" height="80" rx="2.5" fill="#e8b04b" fill-opacity="0.7"/>
+      <text x="66" y="204" class="lt">Domain</text>
+      <text x="66" y="230" class="ls">Use cases · Entities · Repository contracts</text>
+    </g>
+    <g>
+      <rect x="44" y="264" width="368" height="80" rx="14" fill="#18140f" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="44" y="264" width="5" height="80" rx="2.5" fill="#e8b04b" fill-opacity="0.45"/>
+      <text x="66" y="296" class="lt">Data</text>
+      <text x="66" y="322" class="ls">Dio · Retrofit · ObjectBox / Hive / SQLite</text>
+    </g>
+    <g class="mono" font-size="12" fill="#efe9e1">
+      <rect x="44" y="364" width="78" height="28" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="83" y="382" text-anchor="middle">Android</text>
+      <rect x="130" y="364" width="52" height="28" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="156" y="382" text-anchor="middle">iOS</text>
+      <rect x="190" y="364" width="80" height="28" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="230" y="382" text-anchor="middle">Windows</text>
+      <rect x="278" y="364" width="52" height="28" rx="14" fill="#ffffff" fill-opacity="0.05" stroke="#ffffff" stroke-opacity="0.12"/>
+      <text x="304" y="382" text-anchor="middle">Web</text>
+    </g>
+    <text x="44" y="418" class="ls" font-size="12.5">Offline-first · FCM · Crashlytics · Codemagic CI/CD</text>
+
+    <!-- MIDDLE: the wire -->
+    <text x="640" y="60" text-anchor="middle" class="mono h">THE WIRE</text>
+    <g fill="none" stroke-width="2">
+      <path d="M440 150H840" stroke="#e8b04b" stroke-opacity="0.35" class="flow"/>
+      <path d="M440 222H840" stroke="#7ddf9a" stroke-opacity="0.35" class="flow"/>
+      <path d="M440 294H840" stroke="#c9a4ff" stroke-opacity="0.35" class="flow"/>
+    </g>
+    <g class="mono wl">
+      <text x="640" y="136" text-anchor="middle" fill="#e8b04b">REST / JSON · versioned contracts</text>
+      <text x="640" y="208" text-anchor="middle" fill="#7ddf9a">SignalR · live events &amp; dispatch</text>
+      <text x="640" y="280" text-anchor="middle" fill="#c9a4ff">JWT · refresh-token rotation</text>
+    </g>
+    <g>
+      <circle class="p1" cx="452" cy="150" r="5" fill="#f3c469"/>
+      <circle class="p2" cx="452" cy="150" r="4" fill="#efe9e1"/>
+      <circle class="p3" cx="452" cy="150" r="5" fill="#f3c469"/>
+      <circle class="p4" cx="452" cy="222" r="5" fill="#7ddf9a"/>
+      <circle class="p5" cx="452" cy="222" r="5" fill="#7ddf9a"/>
+      <circle class="p1" cx="452" cy="294" r="4" fill="#c9a4ff" style="animation-duration:3.6s"/>
+    </g>
+    <g class="sans" font-size="12.5" fill="#a99e8e">
+      <text x="640" y="350" text-anchor="middle">I design the API contract, auth flow and data model —</text>
+      <text x="640" y="370" text-anchor="middle">then build both ends of it.</text>
+    </g>
+    <g transform="translate(640 410)">
+      <rect x="-118" y="-17" width="236" height="34" rx="17" fill="#e8b04b" fill-opacity="0.1" stroke="#e8b04b" stroke-opacity="0.4"/>
+      <circle class="pulse" cx="-96" cy="0" r="5" fill="#e8b04b"/>
+      <text x="8" y="5" text-anchor="middle" class="mono" font-size="12.5" fill="#f3c469">OranjeTrip · Health 1000</text>
+    </g>
+
+    <!-- RIGHT: ASP.NET Core API -->
+    <rect x="848" y="24" width="408" height="412" rx="20" fill="url(#panel)" stroke="#ffffff" stroke-opacity="0.08"/>
+    <text x="872" y="60" class="mono h">ASP.NET CORE API</text>
+    <text x="1232" y="60" text-anchor="end" class="mono" font-size="12" fill="#756c5f">.NET 10 · CQRS</text>
+
+    <g>
+      <rect x="868" y="80" width="368" height="58" rx="12" fill="#211b14" stroke="#e8b04b" stroke-opacity="0.45"/>
+      <text x="888" y="104" class="lt" font-size="15.5">Api</text>
+      <text x="888" y="125" class="ls" font-size="12.5">Versioning · rate limiting · RFC 7807 ProblemDetails</text>
+    </g>
+    <g>
+      <rect x="868" y="146" width="368" height="58" rx="12" fill="#1e1913" stroke="#e8b04b" stroke-opacity="0.35"/>
+      <text x="888" y="170" class="lt" font-size="15.5">Application</text>
+      <text x="888" y="191" class="ls" font-size="12.5">MediatR · FluentValidation · Result&lt;T&gt; · HybridCache</text>
+    </g>
+    <g>
+      <rect x="868" y="212" width="368" height="58" rx="12" fill="#1b1611" stroke="#e8b04b" stroke-opacity="0.27"/>
+      <text x="888" y="236" class="lt" font-size="15.5">Infrastructure</text>
+      <text x="888" y="257" class="ls" font-size="12.5">EF Core · Outbox · Quartz.NET · Stripe · QuestPDF</text>
+    </g>
+    <g>
+      <rect x="868" y="278" width="368" height="58" rx="12" fill="#18140f" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <text x="888" y="302" class="lt" font-size="15.5">Domain</text>
+      <text x="888" y="323" class="ls" font-size="12.5">Aggregates · state machines · domain events</text>
+    </g>
+
+    <!-- database -->
+    <g transform="translate(868 352)">
+      <path d="M0 10C0 2 44 2 44 10V58C44 66 0 66 0 58Z" fill="#1f2a3a" stroke="#6b9bd8" stroke-opacity="0.6"/>
+      <ellipse cx="22" cy="10" rx="22" ry="7" fill="#2b3a52" stroke="#6b9bd8" stroke-opacity="0.6"/>
+      <path d="M0 26C0 33 44 33 44 26M0 42C0 49 44 49 44 42" fill="none" stroke="#6b9bd8" stroke-opacity="0.45"/>
+      <text x="58" y="30" class="lt" font-size="15">PostgreSQL</text>
+      <text x="58" y="50" class="ls" font-size="12">JSONB bilingual fields · migrations</text>
+    </g>
+    <g transform="translate(1236 386)" text-anchor="end">
+      <text x="0" y="-4" class="mono" font-size="11.5" fill="#7ddf9a">● Serilog → Seq</text>
+      <text x="0" y="16" class="mono" font-size="11.5" fill="#7ddf9a">● OpenTelemetry</text>
+      <text x="0" y="36" class="mono" font-size="11.5" fill="#7ddf9a">● Docker Compose</text>
+    </g>
+  </g>
+</svg>

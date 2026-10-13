@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="t d">
+  <title id="t">My journey, 2020 to today</title>
+  <desc id="d">2020: started Computer Engineering at the University of Aleppo. 2023: went freelance as a Flutter developer. 2024: joined Elkood, my first full-time Flutter role, and shipped five apps in fourteen months. 2025: B.Sc. in Computer Engineering, the UniSphere graduation project, and the Mastering ASP.NET Core program. 2026: full-stack across HOMSI, Evolvo and Al-Sultan Jewelry; Health 1000 sold to a hospital.</desc>
+  <defs>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e8b04b" stop-opacity="0.15"/>
+      <stop offset="1" stop-color="#e8b04b"/>
+    </linearGradient>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,monospace}
+      .yr{font-size:30px;font-weight:700;fill:#e8b04b;letter-spacing:-0.5px}
+      .tt{font-size:16px;font-weight:600;fill:#fdfaf4}
+      .dd{font-size:12.5px;fill:#a99e8e}
+      .draw{stroke-dasharray:1040;stroke-dashoffset:1040;animation:draw 2.2s cubic-bezier(.65,0,.35,1) .2s forwards}
+      @keyframes draw{to{stroke-dashoffset:0}}
+      .n{opacity:0;animation:pop .6s cubic-bezier(.34,1.56,.64,1) forwards;transform-box:fill-box;transform-origin:center}
+      .n1{animation-delay:.3s}.n2{animation-delay:.75s}.n3{animation-delay:1.2s}.n4{animation-delay:1.65s}.n5{animation-delay:2.1s}
+      @keyframes pop{from{opacity:0;transform:scale(.4)}to{opacity:1;transform:scale(1)}}
+      .t{opacity:0;animation:fade .7s ease forwards}
+      .t1{animation-delay:.4s}.t2{animation-delay:.85s}.t3{animation-delay:1.3s}.t4{animation-delay:1.75s}.t5{animation-delay:2.2s}
+      @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      .ring{animation:ring 2s ease-out 2.4s infinite;transform-box:fill-box;transform-origin:center;opacity:0}
+      @keyframes ring{0%{opacity:.8;transform:scale(1)}100%{opacity:0;transform:scale(2.8)}}
+    </style>
+  </defs>
+
+  <rect width="1280" height="300" rx="26" fill="#0e0c0a"/>
+  <rect x="0.5" y="0.5" width="1279" height="299" rx="25.5" fill="none" stroke="#e8b04b" stroke-opacity="0.2"/>
+
+  <g class="sans" text-anchor="middle">
+    <line x1="120" y1="130" x2="1160" y2="130" stroke="#ffffff" stroke-opacity="0.08" stroke-width="4" stroke-linecap="round"/>
+    <path class="draw" d="M120 130H1160" stroke="url(#track)" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+    <!-- 2020 -->
+    <g class="t t1"><text x="120" y="92" class="yr">2020</text></g>
+    <circle class="n n1" cx="120" cy="130" r="9" fill="#0e0c0a" stroke="#e8b04b" stroke-width="3"/>
+    <g class="t t1">
+      <text x="120" y="178" class="tt">Computer Engineering</text>
+      <text x="120" y="202" class="dd">Enrolled at the</text>
+      <text x="120" y="220" class="dd">University of Aleppo</text>
+    </g>
+
+    <!-- 2023 -->
+    <g class="t t2"><text x="380" y="92" class="yr">2023</text></g>
+    <circle class="n n2" cx="380" cy="130" r="9" fill="#0e0c0a" stroke="#e8b04b" stroke-width="3"/>
+    <g class="t t2">
+      <text x="380" y="178" class="tt">Went freelance</text>
+      <text x="380" y="202" class="dd">Flutter apps for clients,</text>
+      <text x="380" y="220" class="dd">Firebase &amp; REST in production</text>
+    </g>
+
+    <!-- 2024 -->
+    <g class="t t3"><text x="640" y="92" class="yr">2024</text></g>
+    <circle class="n n3" cx="640" cy="130" r="9" fill="#0e0c0a" stroke="#e8b04b" stroke-width="3"/>
+    <g class="t t3">
+      <text x="640" y="178" class="tt">Joined Elkood</text>
+      <text x="640" y="202" class="dd">First full-time Flutter role ·</text>
+      <text x="640" y="220" class="dd">5 production apps in 14 months</text>
+    </g>
+
+    <!-- 2025 -->
+    <g class="t t4"><text x="900" y="92" class="yr">2025</text></g>
+    <circle class="n n4" cx="900" cy="130" r="9" fill="#0e0c0a" stroke="#e8b04b" stroke-width="3"/>
+    <g class="t t4">
+      <text x="900" y="178" class="tt">B.Sc. &amp; UniSphere</text>
+      <text x="900" y="202" class="dd">Full-stack graduation project ·</text>
+      <text x="900" y="220" class="dd">Mastering ASP.NET Core</text>
+    </g>
+
+    <!-- 2026 -->
+    <g class="t t5"><text x="1160" y="92" class="yr">2026</text></g>
+    <circle class="ring" cx="1160" cy="130" r="9" fill="none" stroke="#7ddf9a" stroke-width="2"/>
+    <circle class="n n5" cx="1160" cy="130" r="10" fill="#e8b04b" stroke="#f3c469" stroke-width="3"/>
+    <g class="t t5">
+      <text x="1160" y="178" class="tt">Full-stack, shipping</text>
+      <text x="1160" y="202" class="dd">HOMSI · Evolvo · Al-Sultan</text>
+      <text x="1160" y="220" class="dd">Health 1000 sold to a hospital</text>
+    </g>
+
+    <g class="t t5">
+      <rect x="1104" y="246" width="112" height="26" rx="13" fill="#7ddf9a" fill-opacity="0.1" stroke="#7ddf9a" stroke-opacity="0.4"/>
+      <text x="1160" y="263" class="mono" font-size="11.5" fill="#7ddf9a">YOU ARE HERE</text>
+    </g>
+  </g>
+</svg>

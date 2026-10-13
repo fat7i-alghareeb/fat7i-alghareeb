@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="372" viewBox="0 0 1280 372" role="img" aria-labelledby="t d">
+  <title id="t">What I focus on</title>
+  <desc id="d">Production Flutter architecture with Clean Architecture and BLoC. Real-time systems with SignalR and Supabase Realtime. Offline-first local data with ObjectBox, Hive and SQLite. Performance work, up to 90% faster on a legacy rebuild. Backend-aware mobile with ASP.NET Core, CQRS and PostgreSQL. Release workflows with Codemagic and both app stores.</desc>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f1a14"/>
+      <stop offset="1" stop-color="#120f0b"/>
+    </linearGradient>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,monospace}
+      .tt{font-size:18px;font-weight:600;fill:#fdfaf4}
+      .dd{font-size:13.5px;fill:#a99e8e}
+      .ix{font-size:12px;fill:#756c5f}
+      .i{fill:none;stroke:#e8b04b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+      .tl{opacity:0;animation:in .8s cubic-bezier(.22,1,.36,1) forwards}
+      .a1{animation-delay:.05s}.a2{animation-delay:.18s}.a3{animation-delay:.31s}.a4{animation-delay:.44s}.a5{animation-delay:.57s}.a6{animation-delay:.7s}
+      @keyframes in{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
+      .spin{animation:spin 8s linear infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes spin{to{transform:rotate(360deg)}}
+      .beat{animation:beat 1.6s ease-in-out infinite}
+      @keyframes beat{0%,100%{opacity:.4}50%{opacity:1}}
+    </style>
+  </defs>
+
+  <g class="sans">
+    <!-- 1 architecture -->
+    <g class="tl a1">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#e8b04b" fill-opacity="0.1" stroke="#e8b04b" stroke-opacity="0.35"/>
+      <g class="i"><rect x="36" y="34" width="24" height="7" rx="2"/><rect x="36" y="45" width="24" height="7" rx="2"/><rect x="36" y="56" width="24" height="7" rx="2"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">01</text>
+      <text x="24" y="104" class="tt">Production Flutter architecture</text>
+      <text x="24" y="132" class="dd">Clean Architecture, feature modules that</text>
+      <text x="24" y="152" class="dd">survive growth · BLoC/Cubit · GetIt · sealed states</text>
+    </g>
+    <!-- 2 realtime -->
+    <g transform="translate(434 0)"><g class="tl a2">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#7ddf9a" fill-opacity="0.08" stroke="#7ddf9a" stroke-opacity="0.35"/>
+      <g fill="none" stroke="#7ddf9a" stroke-width="2" stroke-linecap="round"><path class="beat" d="M37 41a16 16 0 0 1 22 0"/><path d="M41 47a9 9 0 0 1 14 0"/><circle cx="48" cy="55" r="2.5" fill="#7ddf9a"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">02</text>
+      <text x="24" y="104" class="tt">Real-time systems</text>
+      <text x="24" y="132" class="dd">SignalR &amp; Supabase Realtime in production:</text>
+      <text x="24" y="152" class="dd">reconnects, missed-message recovery, live JWT</text>
+    </g></g>
+    <!-- 3 offline -->
+    <g transform="translate(868 0)"><g class="tl a3">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#e8b04b" fill-opacity="0.1" stroke="#e8b04b" stroke-opacity="0.35"/>
+      <g class="i"><ellipse cx="48" cy="38" rx="11" ry="4"/><path d="M37 38v20c0 2.2 4.9 4 11 4s11-1.8 11-4V38M37 48c0 2.2 4.9 4 11 4s11-1.8 11-4"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">03</text>
+      <text x="24" y="104" class="tt">Offline &amp; local data</text>
+      <text x="24" y="132" class="dd">Offline-first with ObjectBox, Hive and SQLite,</text>
+      <text x="24" y="152" class="dd">picked by access pattern · sync &amp; conflicts</text>
+    </g></g>
+    <!-- 4 performance -->
+    <g transform="translate(0 194)"><g class="tl a4">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#e8b04b" fill-opacity="0.1" stroke="#e8b04b" stroke-opacity="0.35"/>
+      <g class="i"><path d="M35 56a13 13 0 1 1 26 0"/><path d="M48 56l7-9"/><circle cx="48" cy="56" r="2" fill="#e8b04b"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">04</text>
+      <text x="24" y="104" class="tt">Performance optimization</text>
+      <text x="24" y="132" class="dd">Diagnose, then fix: rebuild scope, image</text>
+      <text x="24" y="152" class="dd">pipelines, isolates · up to 90% faster</text>
+    </g></g>
+    <!-- 5 backend -->
+    <g transform="translate(434 194)"><g class="tl a5">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#c9a4ff" fill-opacity="0.08" stroke="#c9a4ff" stroke-opacity="0.35"/>
+      <g fill="none" stroke="#c9a4ff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="35" y="35" width="26" height="10" rx="2.5"/><rect x="35" y="51" width="26" height="10" rx="2.5"/><circle cx="40" cy="40" r="1" fill="#c9a4ff"/><circle cx="40" cy="56" r="1" fill="#c9a4ff"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">05</text>
+      <text x="24" y="104" class="tt">Backend-aware mobile</text>
+      <text x="24" y="132" class="dd">ASP.NET Core · CQRS · EF Core · PostgreSQL ·</text>
+      <text x="24" y="152" class="dd">SignalR. I own both sides of the wire.</text>
+    </g></g>
+    <!-- 6 release -->
+    <g transform="translate(868 194)"><g class="tl a6">
+      <rect x="1" y="1" width="410" height="176" rx="18" fill="url(#tile)" stroke="#e8b04b" stroke-opacity="0.2"/>
+      <rect x="24" y="24" width="48" height="48" rx="12" fill="#e8b04b" fill-opacity="0.1" stroke="#e8b04b" stroke-opacity="0.35"/>
+      <g class="i"><path d="M48 33c6 4 9 10 9 17l-4 6h-10l-4-6c0-7 3-13 9-17z"/><circle cx="48" cy="46" r="2.5"/><path d="M44 60l-2 5M52 60l2 5"/></g>
+      <text x="387" y="44" text-anchor="end" class="mono ix">06</text>
+      <text x="24" y="104" class="tt">Release workflows</text>
+      <text x="24" y="132" class="dd">Codemagic CI/CD, flavors, App Store &amp;</text>
+      <text x="24" y="152" class="dd">Google Play · crash analytics after ship</text>
+    </g></g>
+  </g>
+</svg>
