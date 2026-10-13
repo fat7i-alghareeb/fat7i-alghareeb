@@ -27,7 +27,7 @@
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 👋 Hey, I'm Fathi
+## Hey, I'm Fathi
 
 <table>
 <tr>
@@ -79,7 +79,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🚀 Featured open source
+## Featured open source
 
 <p align="center">
   <a href="https://github.com/fat7i-alghareeb/taxi_system_backend">
@@ -132,7 +132,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 💼 Shipped for clients
+## Shipped for clients
 
 <sub>Client code is private. Each name links to its case study on <a href="https://fat7i.dev/work/">fat7i.dev</a>.</sub>
 
@@ -329,7 +329,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 📫 Let's build something
+## Let's build something
 
 <div align="center">
 
