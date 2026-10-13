@@ -39,7 +39,7 @@ Flutter is my focus. When a product needs a backend, I build that too: on **Oran
 
 I handle the **whole lifecycle** of an app: architecture decisions before the first line, feature work, backend integration, release pipelines, and keeping it healthy after launch. **Clean Architecture** and **BLoC** are my defaults. I don't use them out of habit. I use them because they hold up as an app grows.
 
-<sub>🎓 B.Sc. Computer Engineering, University of Aleppo (2020–2025) · 📚 Mastering ASP.NET Core (35 modules)</sub>
+<sub>B.Sc. Computer Engineering, University of Aleppo (2020–2025) · Mastering ASP.NET Core (35 modules)</sub>
 
 </td>
 <td width="45%" valign="top">
@@ -91,19 +91,19 @@ final fathi = Developer(
 <tr>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/fat7i-alghareeb/customer_taxi_app"><img src="https://raw.githubusercontent.com/fat7i-alghareeb/customer_taxi_app/HEAD/.github/assets/banner.png" width="100%" alt="customer_taxi_app banner"/></a>
-<br/><b><a href="https://github.com/fat7i-alghareeb/customer_taxi_app">🧍 customer_taxi_app</a></b>
+<br/><b><a href="https://github.com/fat7i-alghareeb/customer_taxi_app">customer_taxi_app</a></b>
 <br/><sub>Map booking · multi-stop &amp; scheduled rides · live tracking · Stripe Payment Sheet + wallet · TLS pinning</sub>
 <br/><br/><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/> <img src="https://img.shields.io/badge/BLoC-1FA2FF?style=flat-square" alt="BLoC"/> <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
 </td>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/fat7i-alghareeb/taxi_system_backend"><img src="https://raw.githubusercontent.com/fat7i-alghareeb/taxi_system_backend/HEAD/.github/assets/banner.png" width="100%" alt="taxi_system_backend banner"/></a>
-<br/><b><a href="https://github.com/fat7i-alghareeb/taxi_system_backend">⚙️ taxi_system_backend</a></b>
+<br/><b><a href="https://github.com/fat7i-alghareeb/taxi_system_backend">taxi_system_backend</a></b>
 <br/><sub>Trip state machine · idempotent refunds · Stripe webhooks · OTP auth · Serilog + OpenTelemetry</sub>
 <br/><br/><img src="https://img.shields.io/badge/.NET_10-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt=".NET 10"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/> <img src="https://img.shields.io/badge/SignalR-E8B04B?style=flat-square" alt="SignalR"/>
 </td>
 <td width="33%" align="center" valign="top">
 <a href="https://github.com/fat7i-alghareeb/dashboard_taxi_app"><img src="https://raw.githubusercontent.com/fat7i-alghareeb/dashboard_taxi_app/HEAD/.github/assets/banner.png" width="100%" alt="dashboard_taxi_app banner"/></a>
-<br/><b><a href="https://github.com/fat7i-alghareeb/dashboard_taxi_app">🚖 dashboard_taxi_app</a></b>
+<br/><b><a href="https://github.com/fat7i-alghareeb/dashboard_taxi_app">dashboard_taxi_app</a></b>
 <br/><sub>One codebase, two roles · live fleet map · manual + auto dispatch · KYC review · refunds</sub>
 <br/><br/><img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/> <img src="https://img.shields.io/badge/SignalR-E8B04B?style=flat-square" alt="SignalR"/> <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase"/>
 </td>
@@ -216,7 +216,7 @@ final fathi = Developer(
 </p>
 
 <table align="center">
-<tr><td><b>📱 Flutter &amp; mobile</b></td><td>
+<tr><td><b>Flutter &amp; mobile</b></td><td>
 <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter"/>
 <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart"/>
 <img src="https://img.shields.io/badge/BLoC_/_Cubit-1FA2FF?style=flat-square" alt="BLoC / Cubit"/>
@@ -225,7 +225,7 @@ final fathi = Developer(
 <img src="https://img.shields.io/badge/freezed-7C3AED?style=flat-square" alt="freezed"/>
 <img src="https://img.shields.io/badge/Clean_Architecture-E8B04B?style=flat-square" alt="Clean Architecture"/>
 </td></tr>
-<tr><td><b>⚙️ Backend</b></td><td>
+<tr><td><b>Backend</b></td><td>
 <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
 <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white" alt="C#"/>
 <img src="https://img.shields.io/badge/EF_Core-6C3483?style=flat-square" alt="EF Core"/>
@@ -234,7 +234,7 @@ final fathi = Developer(
 <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>
 <img src="https://img.shields.io/badge/Blazor-512BD4?style=flat-square&logo=blazor&logoColor=white" alt="Blazor"/>
 </td></tr>
-<tr><td><b>🗄️ Data &amp; real-time</b></td><td>
+<tr><td><b>Data &amp; real-time</b></td><td>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
 <img src="https://img.shields.io/badge/SignalR-E8B04B?style=flat-square" alt="SignalR"/>
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>
@@ -243,7 +243,7 @@ final fathi = Developer(
 <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
 <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white" alt="Firebase"/>
 </td></tr>
-<tr><td><b>🚢 Delivery</b></td><td>
+<tr><td><b>Delivery</b></td><td>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
 <img src="https://img.shields.io/badge/Codemagic-F45E3F?style=flat-square&logo=codemagic&logoColor=white" alt="Codemagic"/>
 <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
@@ -262,7 +262,7 @@ final fathi = Developer(
 </p>
 
 <details>
-<summary><b>📂 Experience in detail</b></summary>
+<summary><b>Experience in detail</b></summary>
 <br/>
 
 | | Company | Role | When | Highlights |
@@ -271,7 +271,7 @@ final fathi = Developer(
 | <img src="assets/logos/evolvo.png" width="36" alt="Evolvo"/> | **[Evolvo Tech](https://fat7i.dev/experience/evolvo/)** | Full-Stack Developer (part-time) | Feb 2026 – now | Health 1000 hospital system, sold to a hospital · 285 endpoints · ~75% shared code across four booking surfaces |
 | <img src="assets/logos/al-sultan.png" width="36" alt="Al-Sultan"/> | **[Al-Sultan Jewelry](https://fat7i.dev/work/al-sultan-jewelry/)** | Flutter Developer (part-time) | Jan 2026 – now | Legacy rebuild in Clean Architecture · 90% faster · OOM crashes down to near zero |
 | <img src="assets/logos/elkood.png" width="36" alt="Elkood"/> | **[Elkood](https://fat7i.dev/experience/elkood/)** | Flutter Developer (full-time) | Oct 2024 – Jan 2026 | 5 production apps · 12+ features to 2,000+ users · crash rate down by up to 30% |
-| 🧑‍💻 | **Freelance** | Flutter Developer | 2023 – now | Steady client delivery since 2023 · Firebase &amp; REST in production |
+| | **Freelance** | Flutter Developer | 2023 – now | Steady client delivery since 2023 · Firebase &amp; REST in production |
 
 </details>
 
@@ -283,13 +283,13 @@ final fathi = Developer(
 <tr>
 <td width="50%" valign="top">
 
-**🏛️ Architecture is a conversation**<br/>
+**Architecture is a conversation**<br/>
 <sub>Every structural decision is a message to the next person who touches the codebase. I write code that my future self and my teammates can change.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🌗 The happy path is 30% of the experience**<br/>
+**The happy path is 30% of the experience**<br/>
 <sub>Loading, empty, error and offline states aren't edge cases. They're part of the product, and I build them from day one.</sub>
 
 </td>
@@ -297,13 +297,13 @@ final fathi = Developer(
 <tr>
 <td width="50%" valign="top">
 
-**🚨 Production starts on day one**<br/>
+**Production starts on day one**<br/>
 <sub>Crash analytics, structured logging and error handling aren't polish. They're how you find out what broke at 2 AM.</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🔌 Both sides of the wire**<br/>
+**Both sides of the wire**<br/>
 <sub>Knowing the server makes you a better client engineer. I design API contracts, auth flows and data models, and I don't just consume them.</sub>
 
 </td>
