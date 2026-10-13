@@ -71,7 +71,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 📊 Proof, not adjectives
+## Proof, not adjectives
 
 <p align="center">
   <img src="assets/metrics.svg" width="100%" alt="3+ years building Flutter. 5 production apps shipped at Elkood. 2,000+ active users. 285 REST endpoints, load-tested at 60k requests with zero server errors. 90% faster after a legacy rebuild. Crash rate cut by up to 30%."/>
@@ -193,13 +193,13 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🎯 What I focus on
+## What I focus on
 
 <p align="center">
   <img src="assets/focus.svg" width="100%" alt="Six focus areas: production Flutter architecture, real-time systems, offline and local data, performance optimization, backend-aware mobile, and release workflows."/>
 </p>
 
-## 🔌 Both sides of the wire
+## Both sides of the wire
 
 <p align="center">
   <img src="assets/architecture.svg" width="100%" alt="How I build: a Flutter client in Clean Architecture layers talks to an ASP.NET Core API over REST, SignalR and JWT with refresh rotation; the API runs CQRS on PostgreSQL with Serilog and OpenTelemetry."/>
@@ -207,7 +207,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🧰 Toolbox
+## Toolbox
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -255,7 +255,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🧭 The journey so far
+## The journey so far
 
 <p align="center">
   <img src="assets/journey.svg" width="100%" alt="2020: started Computer Engineering. 2023: went freelance. 2024: joined Elkood and shipped 5 apps in 14 months. 2025: B.Sc., UniSphere and Mastering ASP.NET Core. 2026: full-stack across HOMSI, Evolvo and Al-Sultan Jewelry."/>
@@ -277,7 +277,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 🧠 How I work
+## How I work
 
 <table>
 <tr>
@@ -312,7 +312,7 @@ final fathi = Developer(
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
-## 📈 GitHub at a glance
+## GitHub at a glance
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=fat7i-alghareeb&show_icons=true&hide_rank=true&hide_border=true&bg_color=0E0C0A&title_color=E8B04B&text_color=EFE9E1&icon_color=E8B04B&ring_color=E8B04B&border_radius=16" alt="GitHub stats"/>
