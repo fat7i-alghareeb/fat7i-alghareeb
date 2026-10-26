@@ -14,7 +14,7 @@
 <br/>
 
 <a href="https://fat7i.dev">
-  <img src="assets/portfolio-cta.svg" width="100%" alt="Visit my portfolio: fat7i.dev"/>
+  <img src="assets/portfolio-cta.svg" width="75%" alt="Visit my portfolio: fat7i.dev"/>
 </a>
 
 <br/><br/>
