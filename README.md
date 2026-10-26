@@ -11,9 +11,14 @@
   <img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=E8B04B&center=true&vCenter=true&width=720&lines=Flutter+first+%E2%80%94+Android+%C2%B7+iOS+%C2%B7+Windows+%C2%B7+Web;Clean+Architecture+%C2%B7+BLoC+%C2%B7+sealed+states;Real-time+with+SignalR+%26+Supabase+Realtime;ASP.NET+Core+backends+when+the+product+needs+one;Shipping+from+Aleppo+to+teams+worldwide" alt="Flutter first: Android, iOS, Windows, Web. Clean Architecture, BLoC, sealed states. Real-time with SignalR and Supabase Realtime. ASP.NET Core backends when the product needs one."/>
 </a>
 
-<br/><br/>
+<br/>
 
-<a href="https://fat7i.dev"><img src="https://img.shields.io/badge/Portfolio-fat7i.dev-E8B04B?style=for-the-badge&logo=astro&logoColor=white&labelColor=1A1206" alt="Portfolio"/></a>
+<a href="https://fat7i.dev">
+  <img src="assets/portfolio-cta.svg" width="100%" alt="Visit my portfolio: fat7i.dev"/>
+</a>
+
+<br/>
+
 <a href="https://www.linkedin.com/in/fathi-alghareeb"><img src="https://img.shields.io/badge/LinkedIn-fathi--alghareeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1206" alt="LinkedIn"/></a>
 <a href="https://fat7i.dev/Fathi_Al-Ghareeb_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-7DDF9A?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=1A1206" alt="Resume"/></a>
 <a href="mailto:fat7ighareeb@gmail.com"><img src="https://img.shields.io/badge/Email-fat7ighareeb-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1A1206" alt="Email"/></a>

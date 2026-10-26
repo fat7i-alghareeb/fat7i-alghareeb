@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-labelledby="t d">
+  <title id="t">Visit fat7i.dev</title>
+  <desc id="d">Portfolio, case studies and resume of Fathi Al-Ghareeb at fat7i.dev. Click to open.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1712"/><stop offset="1" stop-color="#0e0c0a"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3c469"/><stop offset="1" stop-color="#c98d24"/></linearGradient>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8b04b" stop-opacity="0.9"/><stop offset="0.5" stop-color="#e8b04b" stop-opacity="0.25"/><stop offset="1" stop-color="#e8b04b" stop-opacity="0.9"/></linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e8b04b" stop-opacity="0.30"/><stop offset="1" stop-color="#e8b04b" stop-opacity="0"/></radialGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fdfaf4" stop-opacity="0"/><stop offset="0.5" stop-color="#fdfaf4" stop-opacity="0.12"/><stop offset="1" stop-color="#fdfaf4" stop-opacity="0"/></linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
+    <clipPath id="card"><rect width="1280" height="220" rx="28"/></clipPath>
+    <style>
+      .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,monospace}
+      .sweep{animation:sweep 4.5s ease-in-out 1s infinite}
+      @keyframes sweep{0%{transform:translateX(-300px) skewX(-18deg)}45%,100%{transform:translateX(1600px) skewX(-18deg)}}
+      .nudge{animation:nudge 1.8s ease-in-out infinite}
+      @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
+      .pulse{animation:pulse 2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
+      @keyframes pulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:0;transform:scale(2.6)}}
+    </style>
+  </defs>
+  <g clip-path="url(#card)" class="sans">
+    <rect width="1280" height="220" fill="url(#bg)"/>
+    <rect width="1280" height="220" fill="url(#grid)"/>
+    <circle cx="1060" cy="110" r="300" fill="url(#glow)"/>
+    <rect class="sweep" x="0" y="-40" width="180" height="300" fill="url(#shine)"/>
+    <rect x="2" y="2" width="1276" height="216" rx="26" fill="none" stroke="url(#border)" stroke-width="2.5"/>
+
+    <g transform="translate(64 40)">
+      <circle cx="6" cy="9" r="5" fill="#7ddf9a"/>
+      <circle class="pulse" cx="6" cy="9" r="5" fill="#7ddf9a"/>
+      <text x="24" y="14" class="mono" font-size="14" letter-spacing="3.5" fill="#e8b04b">PORTFOLIO &#183; CASE STUDIES &#183; RESUME</text>
+    </g>
+    <text x="60" y="140" font-size="84" font-weight="800" letter-spacing="-3" fill="url(#gold)">fat7i<tspan fill="#fdfaf4">.dev</tspan></text>
+    <text x="64" y="182" font-size="19" fill="#a99e8e">Every app, every backend, the full story. All in one place.</text>
+
+    <g transform="translate(850 66)">
+      <rect width="366" height="88" rx="44" fill="url(#gold)"/>
+      <text x="44" y="55" font-size="28" font-weight="800" fill="#1a1206" letter-spacing="-0.3">Visit my portfolio</text>
+      <g class="nudge" transform="translate(300 0)" fill="none" stroke="#1a1206" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0 44H32M22 32L34 44L22 56"/>
+      </g>
+    </g>
+  </g>
+</svg>
