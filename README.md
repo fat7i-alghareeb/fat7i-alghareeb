@@ -17,7 +17,7 @@
   <img src="assets/portfolio-cta.svg" width="100%" alt="Visit my portfolio: fat7i.dev"/>
 </a>
 
-<br/>
+<br/><br/>
 
 <a href="https://www.linkedin.com/in/fathi-alghareeb"><img src="https://img.shields.io/badge/LinkedIn-fathi--alghareeb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=1A1206" alt="LinkedIn"/></a>
 <a href="https://fat7i.dev/Fathi_Al-Ghareeb_Resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-7DDF9A?style=for-the-badge&logo=readdotcv&logoColor=white&labelColor=1A1206" alt="Resume"/></a>

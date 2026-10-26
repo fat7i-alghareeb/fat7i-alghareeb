@@ -1,46 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="220" viewBox="0 0 1280 220" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="214" viewBox="0 0 1280 214" role="img" aria-labelledby="t d">
   <title id="t">Visit fat7i.dev</title>
-  <desc id="d">Portfolio, case studies and resume of Fathi Al-Ghareeb at fat7i.dev. Click to open.</desc>
+  <desc id="d">Portfolio of Fathi Al-Ghareeb at https://fat7i.dev: case studies, experience, resume and contact. Click to open.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1712"/><stop offset="1" stop-color="#0e0c0a"/></linearGradient>
     <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3c469"/><stop offset="1" stop-color="#c98d24"/></linearGradient>
-    <linearGradient id="border" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e8b04b" stop-opacity="0.9"/><stop offset="0.5" stop-color="#e8b04b" stop-opacity="0.25"/><stop offset="1" stop-color="#e8b04b" stop-opacity="0.9"/></linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#e8b04b" stop-opacity="0.30"/><stop offset="1" stop-color="#e8b04b" stop-opacity="0"/></radialGradient>
-    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fdfaf4" stop-opacity="0"/><stop offset="0.5" stop-color="#fdfaf4" stop-opacity="0.12"/><stop offset="1" stop-color="#fdfaf4" stop-opacity="0"/></linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.045"/></pattern>
-    <clipPath id="card"><rect width="1280" height="220" rx="28"/></clipPath>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fdfaf4" stop-opacity="0"/><stop offset="0.5" stop-color="#fdfaf4" stop-opacity="0.07"/><stop offset="1" stop-color="#fdfaf4" stop-opacity="0"/></linearGradient>
+    <clipPath id="card"><rect width="1280" height="214" rx="24"/></clipPath>
+    <clipPath id="bar"><rect x="32" y="72" width="1216" height="88" rx="44"/></clipPath>
     <style>
       .sans{font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif}
-      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,monospace}
-      .sweep{animation:sweep 4.5s ease-in-out 1s infinite}
-      @keyframes sweep{0%{transform:translateX(-300px) skewX(-18deg)}45%,100%{transform:translateX(1600px) skewX(-18deg)}}
-      .nudge{animation:nudge 1.8s ease-in-out infinite}
-      @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(8px)}}
-      .pulse{animation:pulse 2s ease-in-out infinite;transform-origin:center;transform-box:fill-box}
-      @keyframes pulse{0%,100%{opacity:.5;transform:scale(1)}50%{opacity:0;transform:scale(2.6)}}
+      .mono{font-family:ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',monospace}
+      .blink{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+      .nudge{animation:nudge 1.6s ease-in-out infinite}
+      @keyframes nudge{0%,100%{transform:translateX(0)}50%{transform:translateX(6px)}}
+      .sweep{animation:sweep 5s ease-in-out 1s infinite}
+      @keyframes sweep{0%{transform:translateX(-260px) skewX(-20deg)}45%,100%{transform:translateX(1500px) skewX(-20deg)}}
     </style>
   </defs>
   <g clip-path="url(#card)" class="sans">
-    <rect width="1280" height="220" fill="url(#bg)"/>
-    <rect width="1280" height="220" fill="url(#grid)"/>
-    <circle cx="1060" cy="110" r="300" fill="url(#glow)"/>
-    <rect class="sweep" x="0" y="-40" width="180" height="300" fill="url(#shine)"/>
-    <rect x="2" y="2" width="1276" height="216" rx="26" fill="none" stroke="url(#border)" stroke-width="2.5"/>
+    <rect width="1280" height="214" fill="#120f0c"/>
+    <rect width="1280" height="52" fill="#1b1611"/>
+    <circle cx="36" cy="26" r="7" fill="#ff5f57"/>
+    <circle cx="60" cy="26" r="7" fill="#febc2e"/>
+    <circle cx="84" cy="26" r="7" fill="#28c840"/>
+    <rect x="116" y="12" width="380" height="44" rx="10" fill="#120f0c"/>
+    <rect x="132" y="24" width="18" height="18" rx="5" fill="url(#gold)"/>
+    <text x="141" y="38" text-anchor="middle" font-size="12" font-weight="800" fill="#1a1206">F</text>
+    <text x="162" y="39" font-size="15" fill="#efe9e1">Fathi Al-Ghareeb · Portfolio</text>
+    <text x="476" y="38" text-anchor="middle" font-size="15" fill="#6f665a">×</text>
 
-    <g transform="translate(64 40)">
-      <circle cx="6" cy="9" r="5" fill="#7ddf9a"/>
-      <circle class="pulse" cx="6" cy="9" r="5" fill="#7ddf9a"/>
-      <text x="24" y="14" class="mono" font-size="14" letter-spacing="3.5" fill="#e8b04b">PORTFOLIO &#183; CASE STUDIES &#183; RESUME</text>
+    <rect x="32" y="72" width="1216" height="88" rx="44" fill="#1c1712"/>
+    <g clip-path="url(#bar)"><rect class="sweep" x="0" y="60" width="200" height="120" fill="url(#shine)"/></g>
+    <rect x="32.75" y="72.75" width="1214.5" height="86.5" rx="43.25" fill="none" stroke="#e8b04b" stroke-opacity="0.55" stroke-width="1.5"/>
+    <g fill="none" stroke="#7ddf9a" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <rect x="66" y="112" width="22" height="18" rx="4"/><path d="M71 112V106a6 6 0 0 1 12 0V112"/>
     </g>
-    <text x="60" y="140" font-size="84" font-weight="800" letter-spacing="-3" fill="url(#gold)">fat7i<tspan fill="#fdfaf4">.dev</tspan></text>
-    <text x="64" y="182" font-size="19" fill="#a99e8e">Every app, every backend, the full story. All in one place.</text>
+    <text x="108" y="134" class="mono"><tspan font-size="30" fill="#6f665a" textLength="150" lengthAdjust="spacingAndGlyphs">https://</tspan><tspan font-size="50" font-weight="700" fill="url(#gold)" textLength="270" lengthAdjust="spacingAndGlyphs">fat7i.dev</tspan></text>
+    <rect class="blink" x="536" y="94" width="4" height="46" rx="2" fill="#e8b04b"/>
 
-    <g transform="translate(850 66)">
-      <rect width="366" height="88" rx="44" fill="url(#gold)"/>
-      <text x="44" y="55" font-size="28" font-weight="800" fill="#1a1206" letter-spacing="-0.3">Visit my portfolio</text>
-      <g class="nudge" transform="translate(300 0)" fill="none" stroke="#1a1206" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M0 44H32M22 32L34 44L22 56"/>
-      </g>
-    </g>
+    <rect x="940" y="84" width="292" height="64" rx="32" fill="url(#gold)"/>
+    <text x="1062" y="124" text-anchor="middle" font-size="24" font-weight="800" fill="#1a1206">Open portfolio</text>
+    <g class="nudge"><path d="M1178 116H1204M1194 106L1204 116L1194 126" fill="none" stroke="#1a1206" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+
+    <text x="48" y="194" class="mono" font-size="13" letter-spacing="3" fill="#a99e8e">CASE STUDIES  ·  EXPERIENCE  ·  RESUME  ·  CONTACT</text>
   </g>
+  <rect x="1" y="1" width="1278" height="212" rx="23" fill="none" stroke="#e8b04b" stroke-opacity="0.45" stroke-width="2"/>
 </svg>
